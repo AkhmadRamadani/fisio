@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "547347160384",
+    "firebase_url": "https://mikrosuhu-default-rtdb.firebaseio.com",
+    "project_id": "mikrosuhu",
+    "storage_bucket": "mikrosuhu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547347160384:android:51c9f2611c25d299a96ea5",
+        "android_client_info": {
+          "package_name": "com.example.fisioterapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547347160384-ih39tomecsjqmsqhqjlj9gch57ap9vea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fisioterapi",
+            "certificate_hash": "ceede3c80f2536d3435cb429361f46432285e09d"
+          }
+        },
+        {
+          "client_id": "547347160384-fvm0n92hsg9fcvetufhsur4k270e2ra9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMzbpZjZsI4lqc6qbUBVxWqUUqu1RMCTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547347160384-fvm0n92hsg9fcvetufhsur4k270e2ra9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

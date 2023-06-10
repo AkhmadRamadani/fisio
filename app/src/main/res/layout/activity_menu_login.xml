@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tes"
+    tools:context=".MenuLogin">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="295dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="86dp"
+        app:srcCompat="@drawable/title_login" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="178dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="224dp"
+        app:srcCompat="@drawable/avt_pasien" />
+
+    <ImageView
+        android:id="@+id/btnpasien"
+        android:layout_width="177dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="37dp"
+        app:srcCompat="@drawable/btn_pasien" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="178dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="260dp"
+        app:srcCompat="@drawable/avt_doctor" />
+
+    <ImageView
+        android:id="@+id/btndokter"
+        android:layout_width="177dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="288dp"
+        app:srcCompat="@drawable/btn_doctor" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="178dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="86dp"
+        app:srcCompat="@drawable/avt_admin" />
+
+    <ImageView
+        android:id="@+id/btnadmin"
+        android:layout_width="177dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="120dp"
+        app:srcCompat="@drawable/btn_admin" />
+
+</RelativeLayout>

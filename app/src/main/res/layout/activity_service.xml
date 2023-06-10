@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    tools:context=".Service">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="189dp"
+        android:layout_height="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="49dp"
+        app:srcCompat="@drawable/btn_service" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="125dp"
+        android:layout_height="111dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="199dp"
+        app:srcCompat="@drawable/avt_pasien" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="303dp"
+        android:layout_height="212dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="273dp"
+        app:srcCompat="@drawable/title_peringatan" />
+
+    <ImageView
+        android:id="@+id/btnreg"
+        android:layout_width="243dp"
+        android:layout_height="87dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="228dp"
+        app:srcCompat="@drawable/btn_register" />
+
+    <ImageView
+        android:id="@+id/btncall"
+        android:layout_width="169dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="70dp"
+        android:onClick="panggil"
+        app:srcCompat="@drawable/btn_call"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="132dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="48dp"
+        app:srcCompat="@drawable/ambulance" />
+
+    <ImageView
+        android:id="@+id/rs2"
+        android:layout_width="167dp"
+        android:layout_height="191dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="43dp"
+        app:srcCompat="@drawable/hospital2" />
+
+    <ImageView
+        android:id="@+id/rs1"
+        android:layout_width="160dp"
+        android:layout_height="191dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="170dp"
+        app:srcCompat="@drawable/gambar_hospital1" />
+    <ImageView
+        android:id="@+id/rs3x"
+        android:layout_width="160dp"
+        android:layout_height="191dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="170dp"
+        app:srcCompat="@drawable/gambar_hospital1" />
+
+</RelativeLayout>

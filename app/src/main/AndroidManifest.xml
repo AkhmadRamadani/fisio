@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fisioterapi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".FireApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FISIOTERAPI"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".DetailFisioterapi"
+            android:exported="false" />
+        <activity
+            android:name=".DetailPasien"
+            android:exported="false" />
+        <activity
+            android:name=".Notification_Receiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="EMERGENCY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListPasienAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ListPasien"
+            android:exported="false" />
+        <activity
+            android:name=".DetailRumahSakit"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalList"
+            android:exported="false" />
+        <activity
+            android:name=".SendAlertNotif"
+            android:exported="false" />
+        <activity
+            android:name=".ListDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".Emergency2"
+            android:exported="false" />
+        <activity
+            android:name=".Login3"
+            android:exported="false" />
+        <activity
+            android:name=".Mainadmin"
+            android:exported="false" />
+        <activity
+            android:name=".Maindoctor"
+            android:exported="false" />
+        <activity
+            android:name=".Login2"
+            android:exported="false" />
+        <activity
+            android:name=".Consul"
+            android:exported="false" />
+        <activity
+            android:name=".Emergency"
+            android:exported="false" />
+        <activity
+            android:name=".Service"
+            android:exported="false" />
+        <activity
+            android:name=".Edukasi"
+            android:exported="false" />
+        <activity
+            android:name=".RealtimeSensor"
+            android:exported="false" />
+        <activity
+            android:name=".MenuLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".firebase.MessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
