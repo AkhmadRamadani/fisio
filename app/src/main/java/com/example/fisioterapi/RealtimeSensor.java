@@ -174,7 +174,7 @@ public class RealtimeSensor extends AppCompatActivity {
         setTimerValue("00:00:00");
         btn_4.setVisibility(View.VISIBLE);
         btn_6.setVisibility(View.GONE);
-        uploadToFirestore();
+//        uploadToFirestore();
     }
 
     @Override
@@ -203,7 +203,8 @@ public class RealtimeSensor extends AppCompatActivity {
         data.put("time", timeUploaded);
         data.put("patientId", mAuth.getUid());
         data.put("date", formattedDate);
-        list.add(data);
+        firestore.collection("sensors").add(data);
+
 
         Toast.makeText(this, "Data berhasil diupload", Toast.LENGTH_SHORT).show();
     }
